@@ -25,6 +25,8 @@ UnlimitedPaint は [UnlimitedHand](http://unlimitedhand.com/) を利用した自
 
 ![architecture](asset/arch.jpg)
 
+※ 一部 [いらすとや](http://www.irasutoya.com/) 様のイラストを使用しています。
+
 Firebase を介してインターネット越しに操作できるようになっています。
 
 セットアップ方法
