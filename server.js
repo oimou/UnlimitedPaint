@@ -18,8 +18,10 @@ firebase.initializeApp(config);
 const startedAt = new Date();
 
 firebase.database().ref().child("lines").on("child_added", (snapshot) => {
-	console.log("ignoring initial data");
-	if (new Date() - startedAt < 1000 * 10) return;
+	if (new Date() - startedAt < 1000 * 10) {
+		console.log("ignoring initial data");
+		return;
+	}
 
 	const path = snapshot.val();
 	let command;
