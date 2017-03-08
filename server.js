@@ -3,8 +3,8 @@ const firebase = require("firebase");
 const express = require("express");
 const serveStatic = require("serve-static");
 const bodyParser = require("body-parser");
-const UH = require("./uh");
-const encoder = require("./encoder");
+const UH = require("./lib/uh");
+const encoder = require("./lib/encoder");
 const config = require("./public/config.js");
 
 const app = express();
