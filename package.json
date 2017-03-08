@@ -1,0 +1,22 @@
+{
+  "name": "unlimited-r",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "oimou <s1190013@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "body-parser": "^1.17.0",
+    "express": "^4.15.0",
+    "firebase": "^3.7.0",
+    "firebase-admin": "^4.1.2",
+    "linear-solve": "^1.2.1",
+    "serialport": "^4.0.7",
+    "serve-static": "^1.12.1"
+  }
+}
