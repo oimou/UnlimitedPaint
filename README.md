@@ -21,9 +21,11 @@ UnlimitedPaint は [UnlimitedHand](http://unlimitedhand.com/) を利用した自
 アーキテクチャ
 -----
 
-Firebase を介してインターネット越しに操作できるようになっています。
+ポイントはSVGから筋電刺激信号へのエンコード部分です。
 
 ![architecture](asset/arch.jpg)
+
+Firebase を介してインターネット越しに操作できるようになっています。
 
 セットアップ方法
 -----
